@@ -1,0 +1,11 @@
+﻿# HTTP + networking
+requests>=2.31.0
+
+# EXIF / JPEG
+Pillow>=10.0.0
+
+# For regex rulepacks you’ll vendor (JSON/TOML parsing)
+# json is stdlib, but if you drop gitleaks TOML rules you may want:
+toml>=0.10.2   # optional, only if you parse raw gitleaks.toml directly
+
+# (Optional) pretty CLI parsing etc. — we already use argparse from stdlib, so no extra deps
